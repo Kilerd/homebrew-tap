@@ -1,9 +1,9 @@
 cask "anystorage" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.25"
-  sha256 arm:   "f28ccf8759f51c7ee8ae366985233e0cd0687feae9f2252c8a21d9927e148491",
-         intel: "b3ee7a22932545eac3d79f12d28e1c4ce818c141dae68c0095f2aba7b1c64069"
+  version "0.2.26"
+  sha256 arm:   "15672dee88a56965d502c13af2b1bee2e0341bd2abc8cf3a8504287800862515",
+         intel: "8c416c6fc2989feed5810c13e4c94546d71264767426c8ce89ea80c7498ad4a4"
 
   url "https://github.com/Kilerd/anystorage-release/releases/download/v#{version}/AnyStorage_#{version}_#{arch}.dmg"
   name "AnyStorage"
